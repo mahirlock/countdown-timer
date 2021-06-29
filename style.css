@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./slike/winter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.container div {
+  text-align: center;
+}
+
+.container div span {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .big-text {
+    font-size: 2rem;
+  }
+}
